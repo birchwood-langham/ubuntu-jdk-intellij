@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t birchwoodlangham/ubuntu-jdk-intellij:2017.2.1 .
+docker build -t birchwoodlangham/ubuntu-jdk-intellij:2017.2.5 .
