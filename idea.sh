@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -d -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME/develop:/home/user/code -v $HOME/.IntelliJIdea2017.3-docker:/home/user/.IntelliJIdea2017.3 -v $HOME/.m2:/home/user/.m2 -v $HOME/.ivy2:/home/user/.ivy2 --name=idea birchwoodlangham/ubuntu-jdk-intellij:2017.3.4
+docker run -d --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v java-development:/home/user --name=idea birchwoodlangham/ubuntu-jdk-intellij:2018.1.0
